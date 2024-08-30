@@ -1,0 +1,29 @@
+body {
+    /* 
+    Centra los componentes de la pagina en 
+    el centro de la pantalla
+    */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+video {
+
+    border: 1px solid #ccc;
+}
+canvas{
+    /* 
+    Se da posicion absoluta al canvas del video
+    para que se ponga sobre la captura de la camara
+    */
+    position: absolute;
+}
